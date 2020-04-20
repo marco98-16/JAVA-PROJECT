@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+
+	<title>Meteoline</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Risorse -->
+	<link href="style.css" rel="stylesheet">
+	<script src="jQuery.js" rel="text/javascript"></script>
+	<script src="sweetalert.min.js" rel="text/javascript"></script>
+	<script src="weather.js" rel="text/javascript"></script>
+</head>
+<body>
+	<noscript>
+		<a class="info" color="#000">Script mancante. Prova a ricaricare la pagina...</a>
+	</noscript>
+
+	<div class="page-content">
+		<header>
+			<div class="header" id="header">
+				<p class="title" title="Meteoline"><font color='#FF8E17'><span>METEOLINE</span></p>
+					<img class="icon" src="images/cloud.png" align="center" style="position: absolute;top: 5px; right:400px;">
+			</div>
+		</header>
+
+		<div class="search-bar" align="center">
+			<form id="request" method="POST">
+				<table style="width: 100%">
+					<tbody>
+						<tr>
+						<td align="left">
+							<input type="text" id="city" name="city" autocomplete="city" class="search-box" placeholder="Inserisci una città" title="Compila questo campo.">
+						</td>
+
+						<td align="right">
+							<button type="submit" class="button">Vai</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</form>
+		</div>
+
+		<main>
+			<div class="main-result">
+				<a class="title" id="city-name">Palermo</a>
+
+				<a class="sub-title" id="country">IT</a>
+
+				<a class="dati" id="city-id">2007649</a>
+
+
+				<div class="instant-info">
+					<br>
+					<a class="dati" id="state">cielo coperto</a>
+					<br>
+					<a id="temp">21.34°C</a>
+				</div>
+
+
+				<div id="main-measures">
+					<table>
+						<tbody>
+              <tr>
+							<td>
+								<a class="dati"><font color='#FF8E17'><b>Temperatura Max</b></a>
+							</td>
+
+							<td>
+								<a class="dati" id="temp-max">23.33°C</a>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<a class="dati"><font color='#FF8E17'><b>Temperatura Min</b></a>
+							</td>
+
+							<td>
+								<a class="dati" id="temp-min">18.33°C</a>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<a class="dati"><font color='#FF8E17'><b>Umidità</b></a>
+							</td>
+
+							<td>
+								<a class="dati" id="humidity">70%</a>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<a class="dati"><font color='#FF8E17'><b>Pressione Atmosferica</b></a>
+							</td>
+
+							<td>
+								<a class="dati" id="pressure">978 hpa</a>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<a class="dati"><font color='#FF8E17'><b>Visibilità</b></a>
+							</td>
+
+							<td>
+								<a class="dati" id="visibility">16093</a>
+							</td>
+						</tr>
+					</tbody>
+        </table>
+				</div>
+
+				<div id="wind" style="position: absolute;top: 95px; right: 100px;">
+					<a class="sub-title"><font color='#FFF'> Vento </a>
+				</div>
+				<div id="main-measures2">
+					<table style="position: absolute;top: 155px; right: 100px;">
+						<tbody>
+              <tr>
+							<td>
+
+					<a class="info"><font color='#FF8E17'><b>Direzione:</b></a>
+					</td>
+				<td>
+					<a class="info" id="deg">159°</a>
+				</td>
+
+					<tr>
+						<td>
+					<a class="info"><font color='#FF8E17'><b>Velocità:</b></a>
+					</td>
+					<td>
+					<a class="info" id="speed">0.45 m/s</a>
+				</td>
+			</tr>
+		</tbody>
+	 </table>
+	 </div>
+
+				<div id="additional-measures" style="position: absolute;top: 235px; right: 100px;">
+					<a class="sub-title"><font color='#FFF'>Dati Aggiuntivi</a>
+				</div>
+				<div id="main-measures2">
+					<table style="position: absolute;top: 295px; right: 100px;">
+						<tbody>
+							<tr>
+							<td>
+
+					<a class="info"><font color='#FF8E17'><b>Latitudine:</b></a>
+					</td>
+					<td>
+					<a class="info" id="lat">37.82</a>
+				</td>
+					<tr>
+						<td>
+					<a class="info"><font color='#FF8E17'><b>Longitudine:</b></a>
+					</td>
+					<td>
+					<a class="info" id="lon">13.58</a>
+				</td>
+			</tr>
+				<tr>
+					<td>
+					<a class="info"><font color='#FF8E17'><b>Alba:</b></a>
+					</td>
+					<td>
+					<a class="info" id="sunrise">6:25:46</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="info"><font color='#FF8E17'><b>Tramonto:</b></a>
+					</td>
+					<td>
+					<a class="info" id="sunset">19:43:46</a>
+				</td>
+			</tr>
+		</tbody>
+	 </table>
+				</div>
+</main>
+
+<div class="footer"style="position: relative;top: 50px; align:center">
+		<div id="credits">
+			<a class="dati"><font color="#194AAF"><b>Informazioni offerte da:</b></a>
+			<br>
+			<a href="https://openweathermap.org/" target="_blank"><img class="icon" src="images/logo.png"></a>
+
+<p class="dati"><font color="#194AAF"><b><i>Meteoline</i></b></p>
+	</div>
+</div>
+
+<div class="swal-overlay" tabindex="-1">
+  <div class="swal-modal" role="dialog" aria-modal="true">
+		<div class="swal-icon error">
+    <div class="swal-icon error">
+    <span class="swal-icon error">
+      <span class="swal-icon error__dot">
+      </span>
+    </span>
+  </div>
+  <div class="swal-title" style="">Non ho capito</div>
+  <div class="swal-text" style="">Non credo esista quella città, prova digitare meglio!>
+  </div>
+  <div class="swal-footer">
+    <div class="swal-button-container">
+
+    <button class="swal-button swal-button--confirm">OK</button>
+
+    <div class="swal-button__loader">
+
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>

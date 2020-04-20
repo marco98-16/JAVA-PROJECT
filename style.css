@@ -1,0 +1,310 @@
+:root{
+	background-color: #194AAF;
+	background-image: url(images/sky_Sun.jpg);
+
+}
+
+/* General */
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	box-sizing: border-box;
+
+}
+
+/* Styling */
+body{
+	background-color:#194AAF;
+	background-image: url(images/sky_Sun.jpg);
+}
+
+a{
+	color: inherit;
+}
+
+table, tbody, tr, td{
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+div.page-content{
+	background:#194AAF
+	height: auto;
+  padding-bottom: 50px;
+}
+
+hr{
+	height: 0;
+	width: 70%;
+	margin: 4px auto;
+	border-top: 0.3px solid white;
+}
+
+div.header{
+	padding: 5px;
+	text-align: center;
+}
+
+div.header .title{
+	color: #FFF;
+	font-family: 'Verdana';
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 50px;
+}
+
+div.header .sub-title{
+	color: #FFF;
+	font-family: 'Verdana';
+	font-style: italic;
+
+	margin: 5px;
+	font-size: 25px;
+}
+
+div.search-bar{
+	border-radius: 10px;
+	text-align: center;
+	margin: 20px auto;
+	padding: 0;
+	width: 400px;
+	background-color: #FFF;
+
+	cursor: pointer;
+	transition: box-shadow 0.5s;
+	box-shadow: none;
+}
+
+div.search-bar:hover{
+	transition: box-shadow 0.5s;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+div.search-bar input.search-box{
+	font-size: 20px;
+	padding: 3px;
+
+	border: none;
+	border-radius: 10px;
+	font-family: 'Verdana';
+}
+
+div.search-bar .button{
+	margin: 0 2px;
+}
+
+button, .button{
+	margin: 0;
+	border-radius: 10px;
+	border: 0;
+	background-color: #2271be;
+	color: #000000;
+	font-size: 20px;
+	min-width: 50px;
+	font-family: 'Verdana';
+	cursor: pointer;
+}
+
+button:hover, .button:hover{
+	transition: opacity 0.5s;
+	opacity: 0.8;
+}
+
+/* Contenuto Principale */
+div.main-result{
+	width: 600px;
+	margin: auto;
+	position:relative;
+	top: auto;
+	right: 350px;
+
+}
+
+div.main-result .title{
+	font-family: 'Verdana';
+	text-transform: uppercase;
+	color: #2271b3;
+  font-size: 80px;
+}
+
+div.main-result .sub-title{
+	font-family: 'Verdana';
+	color: #2271b3;
+	font-size: 50px;
+}
+
+div.main-result #temp{
+	font-family: 'Verdana';
+	text-transform: uppercase;
+	color: #FFF;
+
+	font-size: 70px;
+	margin-left: auto;
+}
+div#wind{
+  background-color: rgba( 255, 142, 23, 0.7);
+  text-align: center;
+	text-transform: capitalize;
+	padding: 0;
+	width: 500px;
+	margin: 0;
+	border-radius: 10px;
+	position:relative;
+	top: auto;
+	left: 800px;
+
+}
+div#additional-measures{
+  background-color: rgba( 255, 142, 23, 0.7);
+  text-align:center;
+	text-transform: capitalize;
+	padding: 0;
+	width: 500px;
+	margin: 0;
+	border-radius: 10px;
+	position:relative;
+	top: auto;
+	left: 800px;
+}
+
+
+div#main-measures table{
+	width: 500px;
+}
+
+div#main-measures tbody tr:nth-child(odd){
+  background-color: rgba( 34, 113, 179, 0.7);
+}
+
+div#main-measures tbody tr:nth-child(even){
+  background-color: rgb( 255, 255, 255,);
+}
+
+div#main-measures table tr td{
+	width: 50%;
+  margin: 0;
+	padding: 10px;
+
+}
+
+div#main-measures table tr td:nth-child(even){
+	border-radius: 10px;
+
+}
+
+div#main-measures table tr td:nth-child(odd){
+	border-radius: 10px;
+}
+div#main-measures2 table{
+	width: 500px;
+
+}
+
+div#main-measures2 tbody tr:nth-child(odd){
+  background-color: rgba( 34, 113, 179, 0.7);
+
+}
+
+div#main-measures2 tbody tr:nth-child(even){
+  background-color: rgb( 255, 255, 255,);
+
+}
+
+div#main-measures2 table tr td{
+	width: 50%;
+  margin: 0;
+	padding: 10px;
+
+
+}
+
+div#main-measures2 table tr td:nth-child(even){
+	border-radius: 10px;
+	position:relative;
+	left: 800px;
+
+}
+
+div#main-measures2 table tr td:nth-child(odd){
+	border-radius: 10px;
+	position:relative;
+	left: 800px;
+
+}
+
+
+.info{
+	color: #FF8E17;
+  font-family: 'Verdana';
+
+
+}
+.dati{
+	color: #FF8E17;
+  font-family: 'Verdana';
+	
+}
+div.instant-info #state{
+	color:#FFF;
+}
+
+div.instant-info{
+	background-color: rgba( 255, 142, 23, 0.7);
+	width: 500px;
+	text-align: center;
+	text-transform: capitalize;
+	padding: 5px;
+	margin: 0;
+	border-radius: 20px;
+}
+
+div.footer{
+	background-color:#FF8E17;
+	text-align: center;
+}
+
+div#credits img.icon{
+	width: 200px;
+	height: auto;
+}
+
+div#credits img.icon, div#social img.icon{
+	vertical-align: middle;
+	filter: grayscale(100);
+}
+
+div#credits img.icon:hover, div#social img.icon:hover{
+	transition: filter 0.5s;
+	filter: grayscale(0);
+}
+
+img.icon{
+	height: 64px;
+	width: auto;
+}
+
+/* SweetAlert */
+.swal-modal, .swal-button{
+	border-radius: 20px;
+	font-family: 'Verdana';
+}
+
+.swal-modal .swal-title{
+	font-family: 'Verdana';
+}
+
+@media screen and ( max-device-width: 400px ){
+	div.header .title{
+		font-size: 30px;
+	}
+
+	div.search-bar{
+		width: 300px;
+	}
+}
