@@ -223,7 +223,6 @@ div#main-measures2 table tr td{
 
 
 }
-
 div#main-measures2 table tr td:nth-child(even){
 	border-radius: 10px;
 	position:relative;
@@ -248,7 +247,7 @@ div#main-measures2 table tr td:nth-child(odd){
 .dati{
 	color: #FF8E17;
   font-family: 'Verdana';
-	
+
 }
 div.instant-info #state{
 	color:#FFF;
@@ -299,7 +298,7 @@ img.icon{
 	font-family: 'Verdana';
 }
 
-@media screen and ( max-device-width: 400px ){
+@media all and ( max-device-width: 200px ){
 	div.header .title{
 		font-size: 30px;
 	}
