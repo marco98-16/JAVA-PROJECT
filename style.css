@@ -298,10 +298,9 @@ img.icon{
 	font-family: 'Verdana';
 }
 
-@media all and ( max-device-width: 200px ){
-	div.header .title{
-		font-size: 30px;
-	}
+@media screen and ( max-device-width: 400px ){
+	
+}
 
 	div.search-bar{
 		width: 300px;
