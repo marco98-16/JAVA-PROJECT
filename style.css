@@ -297,8 +297,8 @@ img.icon{
 	font-family: 'Verdana';
 }
 
-@media screen and ( max-device-width: 400px ){
-	html{
+@media screen and ( max-device-width: 1000px ){
+	div.page-content{
 		font-size: 30px;
 	}
 
