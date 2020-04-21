@@ -18,7 +18,7 @@ html, body{
 /* Styling */
 body{
 	background-color:#194AAF;
-	
+
 }
 
 a{
@@ -88,7 +88,6 @@ div.search-bar:hover{
 div.search-bar input.search-box{
 	font-size: 20px;
 	padding: 3px;
-
 	border: none;
 	border-radius: 10px;
 	font-family: 'Verdana';
