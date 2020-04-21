@@ -124,13 +124,13 @@ div.main-result{
 div.main-result .title{
 	font-family: 'Verdana';
 	text-transform: uppercase;
-	color: #2271b3;
-  font-size: 80px;
+	color: #FF8E17;
+  font-size: 70px;
 }
 
 div.main-result .sub-title{
 	font-family: 'Verdana';
-	color: #2271b3;
+	color: #FF8E17;
 	font-size: 50px;
 }
 
@@ -162,7 +162,7 @@ div#main-measures tbody tr:nth-child(odd){
 }
 
 div#main-measures tbody tr:nth-child(even){
-  background-color: rgb( 255, 255, 255,);
+  background-color: rgb( 255, 142, 23,0.7);
 }
 
 div#main-measures table tr td{
@@ -183,7 +183,7 @@ div#main-measures table tr td:nth-child(odd){
 
 
 .info{
-	color: #FF8E17;
+	color: #194AAF;
   font-family: 'Verdana';
 }
 
@@ -209,7 +209,8 @@ div.instant-info{
 div.footer{
 	background-color:#FF8E17;
 	text-align: center;
-padding: auto;
+	position:relative;
+	top: 50px;
 }
 
 div#credits img.icon{
