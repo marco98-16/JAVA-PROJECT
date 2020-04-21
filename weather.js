@@ -25,7 +25,7 @@ function getWeatherByCity( request ){
 				swal({
 					title: "Ops..",
 					text: "A quanto pare la tua richiesta non è valida. Inserisci una città!",
-					icon: "error"
+					icon: "warning"
 				});
 			},
 
@@ -57,7 +57,9 @@ function assign( data ){
 
 	$("#temp-max").html( data.main.temp_max + "°C" );
 	$("#temp-min").html( data.main.temp_min + "°C" );
-	
+	$("#humidity").html( data.main.humidity + "%" );
+	$("#pressure").html( data.main.pressure + " hpa" );
+	$("#visibility").html( data.visibility );
 
 	$("#lat").html( data.coord.lat );
 	$("#lon").html( data.coord.lon );

@@ -20,8 +20,8 @@
 	<div class="page-content">
 		<header>
 			<div class="header" id="header">
-				<p class="title" title="Meteoline" align="center"><font color='#FF8E17'><span>METEOLINE</span></p>
-					<img class="icon" src="images/cloud.png" style="position: absolute;top: 20px; right:430px;">
+				<p class="title" title="Meteoline"><font color='#FF8E17'><span>METEOLINE</span></p>
+					<img class="profile-pic" src="images/cloud.png" align="center" style="position: absolute;top: 10px; right: 400px;">
 			</div>
 		</header>
 
@@ -45,15 +45,20 @@
 
 		<main>
 			<div class="main-result">
-			<a class="title" id="city-name">Palermo</a>
-      <a class="sub-title" id="country">IT</a>
-      <a class="dati" id="city-id">2007649</a>
+				<a class="title" id="city-name">Palermo</a>
+
+				<a class="sub-title" id="country">IT</a>
+
+				<a class="dati" id="city-id">2007649</a>
+
 				<div class="instant-info">
 					<br>
 					<a class="dati" id="state">cielo coperto</a>
 					<br>
 					<a id="temp">21.34°C</a>
 				</div>
+
+
 				<div id="main-measures">
 					<table>
 						<tbody>
@@ -69,11 +74,11 @@
 
 						<tr>
 							<td>
-								<a class="dati"><font color='#194AAF'><b>Temperatura Min</b></a>
+								<a class="dati"><font color='#FF8E17'><b>Temperatura Min</b></a>
 							</td>
 
 							<td>
-								<a class="info" id="temp-min">18.33°C</a>
+								<a class="dati" id="temp-min">18.33°C</a>
 							</td>
 						</tr>
 
@@ -89,37 +94,98 @@
 
 						<tr>
 							<td>
-								<a class="dati"><font color='#194AAF'><b>Alba</b></a>
+								<a class="dati"><font color='#FF8E17'><b>Pressione Atmosferica</b></a>
 							</td>
 
 							<td>
-								<a class="info" id="sunrise">6:25:46</a>
+								<a class="dati" id="pressure">978 hpa</a>
 							</td>
 						</tr>
 
 						<tr>
 							<td>
-								<a class="dati"><font color='#FF8E17'><b>Tramonto</b></a>
+								<a class="dati"><font color='#FF8E17'><b>Visibilità</b></a>
 							</td>
 
 							<td>
-								<a class="dati" id="sunset">19:43:46</a>
+								<a class="dati" id="visibility">16093</a>
 							</td>
 						</tr>
-						<tr>
-						<td>
-
-				<a class="info"><font color='#194AAF'><b>Vento</b></a>
-				</td>
-				<td>
-				<a class="info" id="speed">0.45 m/s</a>
-			</td>
-		</tr>
-			</tbody>
+					</tbody>
         </table>
 				</div>
+
+				<div id="wind" style="position: absolute;top: 90px; right: 100px;">
+					<a class="sub-title"> Vento </a>
+				</div>
+				<div id="main-measures2">
+					<table style="position: absolute;top: 150px; right: 100px;">
+						<tbody>
+              <tr>
+							<td>
+
+					<a class="info"><font color='#FF8E17'><b>Direzione:</b></a>
+					</td>
+				<td>
+					<a class="info" id="deg">159°</a>
+				</td>
+
+					<tr>
+						<td>
+					<a class="info"><font color='#FF8E17'><b>Velocità:</b></a>
+					</td>
+					<td>
+					<a class="info" id="speed">0.45 m/s</a>
+				</td>
+			</tr>
+		</tbody>
+	 </table>
+	 </div>
+
+				<div id="additional-measures" style="position: absolute;top: 230px; right: 100px;">
+					<a class="sub-title">Dati Aggiuntivi</a>
+				</div>
+				<div id="main-measures2">
+					<table style="position: absolute;top: 290px; right: 100px;">
+						<tbody>
+							<tr>
+							<td>
+
+					<a class="info"><font color='#FF8E17'><b>Latitudine:</b></a>
+					</td>
+					<td>
+					<a class="info" id="lat">37.82</a>
+				</td>
+					<tr>
+						<td>
+					<a class="info"><font color='#FF8E17'><b>Longitudine:</b></a>
+					</td>
+					<td>
+					<a class="info" id="lon">13.58</a>
+				</td>
+			</tr>
+				<tr>
+					<td>
+					<a class="info"><font color='#FF8E17'><b>Alba:</b></a>
+					</td>
+					<td>
+					<a class="info" id="sunrise">6:25:46</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a class="info"><font color='#FF8E17'><b>Tramonto:</b></a>
+					</td>
+					<td>
+					<a class="info" id="sunset">19:43:46</a>
+				</td>
+			</tr>
+		</tbody>
+	 </table>
+				</div>
 </main>
-<div class="footer">
+
+<div class="footer"style="position: relative;top: 100px; align:center">
 		<div id="credits">
 			<a class="dati"><font color="#194AAF"><b>Informazioni offerte da:</b></a>
 			<br>
