@@ -1,6 +1,6 @@
 :root{
 	background-color: #194AAF;
-	background-image: url(images/sky_Sun.jpg);
+
 
 }
 
@@ -18,7 +18,7 @@ html, body{
 /* Styling */
 body{
 	background-color:#194AAF;
-	background-image: url(images/sky_Sun.jpg);
+	
 }
 
 a{
@@ -46,8 +46,9 @@ hr{
 }
 
 div.header{
-	padding: 5px;
+	padding: 10px;
 	text-align: center;
+	background-color:#194AAF
 }
 
 div.header .title{
@@ -62,7 +63,6 @@ div.header .sub-title{
 	color: #FFF;
 	font-family: 'Verdana';
 	font-style: italic;
-
 	margin: 5px;
 	font-size: 25px;
 }
@@ -119,7 +119,7 @@ button:hover, .button:hover{
 div.main-result{
 	width: 600px;
 	margin: auto;
-	
+
 }
 
 div.main-result .title{
@@ -210,6 +210,7 @@ div.instant-info{
 div.footer{
 	background-color:#FF8E17;
 	text-align: center;
+padding: auto;
 }
 
 div#credits img.icon{
@@ -217,18 +218,9 @@ div#credits img.icon{
 	height: auto;
 }
 
-div#credits img.icon, div#social img.icon{
-	vertical-align: middle;
-	filter: grayscale(100);
-}
-
-div#credits img.icon:hover, div#social img.icon:hover{
-	transition: filter 0.5s;
-	filter: grayscale(0);
-}
 
 img.icon{
-	height: 64px;
+	height: 50px;
 	width: auto;
 }
 img {
