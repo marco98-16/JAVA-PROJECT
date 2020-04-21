@@ -286,6 +286,9 @@ img.icon{
 	height: 64px;
 	width: auto;
 }
+img {
+	max-width: 100%;
+}
 
 /* SweetAlert */
 .swal-modal, .swal-button{
@@ -299,7 +302,7 @@ img.icon{
 
 @media screen and ( max-device-width: 1000px ){
 	div.page-content{
-		font-size: 30px;
+		font-size: 1.60em;
 	}
 
 	div.search-bar{
