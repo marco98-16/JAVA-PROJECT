@@ -223,6 +223,7 @@ div#main-measures2 table tr td{
 
 
 }
+
 div#main-measures2 table tr td:nth-child(even){
 	border-radius: 10px;
 	position:relative;
@@ -237,13 +238,11 @@ div#main-measures2 table tr td:nth-child(odd){
 
 }
 
-
 .info{
 	color: #FF8E17;
   font-family: 'Verdana';
-
-
 }
+
 .dati{
 	color: #FF8E17;
   font-family: 'Verdana';
@@ -299,8 +298,9 @@ img.icon{
 }
 
 @media screen and ( max-device-width: 400px ){
-	
-}
+	html{
+		font-size: 30px;
+	}
 
 	div.search-bar{
 		width: 300px;
