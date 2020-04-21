@@ -53,7 +53,6 @@ div.header{
 div.header .title{
 	color: #FFF;
 	font-family: 'Verdana';
-
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-size: 50px;
@@ -120,9 +119,7 @@ button:hover, .button:hover{
 div.main-result{
 	width: 600px;
 	margin: auto;
-	position:relative;
-	top: auto;
-	right: 350px;
+	
 
 }
 
@@ -155,27 +152,11 @@ div#wind{
 	width: 500px;
 	margin: 0;
 	border-radius: 10px;
-	position:relative;
-	top: auto;
-	left: 800px;
 
 }
-div#additional-measures{
-  background-color: rgba( 255, 142, 23, 0.7);
-  text-align:center;
-	text-transform: capitalize;
-	padding: 0;
-	width: 500px;
-	margin: 0;
-	border-radius: 10px;
-	position:relative;
-	top: auto;
-	left: 800px;
-}
-
 
 div#main-measures table{
-	width: 500px;
+	width: 100%;
 }
 
 div#main-measures tbody tr:nth-child(odd){
@@ -201,42 +182,7 @@ div#main-measures table tr td:nth-child(even){
 div#main-measures table tr td:nth-child(odd){
 	border-radius: 10px;
 }
-div#main-measures2 table{
-	width: 500px;
 
-}
-
-div#main-measures2 tbody tr:nth-child(odd){
-  background-color: rgba( 34, 113, 179, 0.7);
-
-}
-
-div#main-measures2 tbody tr:nth-child(even){
-  background-color: rgb( 255, 255, 255,);
-
-}
-
-div#main-measures2 table tr td{
-	width: 50%;
-  margin: 0;
-	padding: 10px;
-
-
-}
-
-div#main-measures2 table tr td:nth-child(even){
-	border-radius: 10px;
-	position:relative;
-	left: 800px;
-
-}
-
-div#main-measures2 table tr td:nth-child(odd){
-	border-radius: 10px;
-	position:relative;
-	left: 800px;
-
-}
 
 .info{
 	color: #FF8E17;
@@ -254,7 +200,7 @@ div.instant-info #state{
 
 div.instant-info{
 	background-color: rgba( 255, 142, 23, 0.7);
-	width: 500px;
+	width: 100%;
 	text-align: center;
 	text-transform: capitalize;
 	padding: 5px;
@@ -287,8 +233,7 @@ img.icon{
 	width: auto;
 }
 img {
-	max-width: 100%;
-}
+	max-width: 100%;}
 
 /* SweetAlert */
 .swal-modal, .swal-button{
@@ -300,10 +245,11 @@ img {
 	font-family: 'Verdana';
 }
 
-@media screen and ( max-device-width: 1000px ){
-	div.page-content{
-		font-size: 1.60em;
+@media screen and ( max-device-width: 400px ){
+	div.header .title{
+		font-size: 30px;
 	}
+
 
 	div.search-bar{
 		width: 300px;

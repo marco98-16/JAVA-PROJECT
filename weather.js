@@ -57,12 +57,7 @@ function assign( data ){
 
 	$("#temp-max").html( data.main.temp_max + "°C" );
 	$("#temp-min").html( data.main.temp_min + "°C" );
-	$("#humidity").html( data.main.humidity + "%" );
-	$("#pressure").html( data.main.pressure + " hpa" );
-	$("#visibility").html( data.visibility );
 
-	$("#lat").html( data.coord.lat );
-	$("#lon").html( data.coord.lon );
 
 	var sunrise = new Date( data.sys.sunrise * 1000 ) ;
 	var sunset = new Date( data.sys.sunset * 1000 );
@@ -71,5 +66,5 @@ function assign( data ){
 	$("#sunset").html( sunset.getHours() + ":" + sunset.getMinutes() + ":" + sunrise.getSeconds() );
 
 	$("#speed").html( data.wind.speed + " m/s" );
-	$("#deg").html( data.wind.deg + "°" );
+
 }
