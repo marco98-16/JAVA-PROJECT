@@ -1,5 +1,6 @@
 :root{
-	background-color: #194AAF
+	background-color: #194AAF;
+	background-image: url(images/sky_Sun.jpg);
 }
 
 /* General */
@@ -16,6 +17,7 @@ html, body{
 /* Styling */
 body{
 	background-color:#194AAF;
+	background-image: url(images/sky_Sun.jpg);
 }
 
 a{
@@ -126,24 +128,25 @@ div.main-result{
 
 }
 
+
 div.main-result .title{
 	font-family: 'Verdana';
 	text-transform: uppercase;
-	color: #FFF;
+	color: #2271b3;
 
 	font-size: 70px;
 }
 
 div.main-result .sub-title{
 	font-family: 'Verdana';
-	color: #FFF;
+	color: #2271b3;
 	font-size: 50px;
 }
 
 div.main-result #temp{
 	font-family: 'Verdana';
 	text-transform: uppercase;
-	color: #FFF;
+	color: #fff;
 
 	font-size: 70px;
 	margin-left: auto;
@@ -159,7 +162,6 @@ div#wind{
 	position:relative;
 	top: auto;
 	left: 800px;
-
 }
 div#additional-measures{
   background-color: rgba( 255, 142, 23, 0.7);
@@ -180,11 +182,11 @@ div#main-measures table{
 }
 
 div#main-measures tbody tr:nth-child(odd){
-  background-color: rgba( 255, 255, 255, 0.3);
+  background-color: rgba(34, 113, 179, 0.7 );
 }
 
 div#main-measures tbody tr:nth-child(even){
-  background-color: rgb( 255, 255, 255,);
+  background-color: rgba( 255, 142, 23, 0.7);
 }
 
 div#main-measures table tr td{
@@ -209,11 +211,11 @@ div#main-measures2 table{
 }
 
 div#main-measures2 tbody tr:nth-child(odd){
-  background-color: rgba( 255, 255, 255, 0.3);
+  background-color: rgba( 34, 113, 179, 0.7);
 }
 
 div#main-measures2 tbody tr:nth-child(even){
-  background-color: rgb( 255, 255, 255,);
+  background-color: rgba( 255, 142, 23, 0.7);
 }
 
 div#main-measures2 table tr td{
