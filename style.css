@@ -26,9 +26,7 @@ table, tbody, tr, td{
 	margin: 0;
 	padding: 0;
 	border: 0;
-	-moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
+
 
 }
 
@@ -180,9 +178,7 @@ div#additional-measures{
 
 div#main-measures table{
 	width: 100%;
-	-moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
+
 }
 
 div#main-measures tbody tr:nth-child(odd){
@@ -210,10 +206,6 @@ div#main-measures table tr td:nth-child(odd){
 }
 div#main-measures2 table{
 	width: 500px;
-	-moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-
 
 }
 
@@ -310,7 +302,10 @@ img.icon{
 @media screen and ( max-device-width: 400px ){
 	div.header .title{
 		font-size: 30px;
-	}
+		-moz-background-size: cover;
+	  -webkit-background-size: cover;
+	  background-size: cover;
+}
 
 	div.search-bar{
 		width: 300px;
