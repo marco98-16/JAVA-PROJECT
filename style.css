@@ -26,6 +26,9 @@ table, tbody, tr, td{
 	margin: 0;
 	padding: 0;
 	border: 0;
+	-moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 
 
 }
@@ -269,21 +272,6 @@ div.footer{
 
 }
 
-div#credits img.icon{
-	width: 200px;
-	height: auto;
-}
-
-div#credits img.icon, div#social img.icon{
-	vertical-align: middle;
-	filter: grayscale(100);
-}
-
-div#credits img.icon:hover, div#social img.icon:hover{
-	transition: filter 0.5s;
-	filter: grayscale(0);
-}
-
 img.icon{
 	height: 64px;
 	width: auto;
@@ -301,10 +289,7 @@ img.icon{
 
 @media screen and ( max-device-width: 400px ){
 	div.header .title{
-		font-size: 30px;
-		-moz-background-size: cover;
-	  -webkit-background-size: cover;
-	  background-size: cover;
+  font-size: 30px;
 }
 
 	div.search-bar{
