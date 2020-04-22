@@ -282,11 +282,9 @@ img.icon{
 .swal-modal .swal-title{
 	font-family: 'Verdana';
 }
-[class*="table"] {
-  width: 100%;
-}
-@media screen and ( max-width: 600px ){
-	table{
+
+@media all (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait){
+	div.page-content{
   font-size: 30px;
 }
 
