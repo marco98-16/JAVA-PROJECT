@@ -2,6 +2,9 @@
 	background-color: #194AAF;
 	background-image: url(images/sky_Sun.jpg);
 	background-repeat: no-repeat;
+	-moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 /* General */
@@ -20,6 +23,9 @@ body{
 	background-color:#194AAF;
 	background-image: url(images/sky_Sun.jpg);
 	background-repeat: no-repeat;
+	-moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 a{
