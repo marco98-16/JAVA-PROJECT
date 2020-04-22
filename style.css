@@ -30,9 +30,11 @@ table, tbody, tr, td{
 }
 
 div.page-content{
-	background:#194AAF
 	height: auto;
   padding-bottom: 50px;
+	-moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 hr{
@@ -73,7 +75,7 @@ div.search-bar{
 	text-align: center;
 	margin: 20px auto;
 	padding: 0;
-	width: 400px;
+	width: 335px;
 	background-color: #FFF;
 
 	cursor: pointer;
@@ -118,7 +120,7 @@ button:hover, .button:hover{
 
 /* Contenuto Principale */
 div.main-result{
-	width: 600px;
+	width: 500px;
 	margin: auto;
 	position:relative;
 	top: auto;
@@ -159,7 +161,7 @@ div#wind{
 	border-radius: 10px;
 	position:relative;
 	top: auto;
-	left: 800px;
+	left: 700px;
 }
 div#additional-measures{
   background-color: rgba( 255, 142, 23, 0.7);
@@ -171,7 +173,7 @@ div#additional-measures{
 	border-radius: 10px;
 	position:relative;
 	top: auto;
-	left: 800px;
+	left: 700px;
 }
 
 
@@ -283,8 +285,8 @@ img.icon{
 	font-family: 'Verdana';
 }
 
-@media all (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait){
-	div.page-content{
+@media screen and ( max-device-width: 400px ){
+	div.header .title{
   font-size: 30px;
 }
 
