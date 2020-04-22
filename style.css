@@ -26,10 +26,6 @@ table, tbody, tr, td{
 	margin: 0;
 	padding: 0;
 	border: 0;
-	-moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-
 
 }
 
@@ -286,9 +282,11 @@ img.icon{
 .swal-modal .swal-title{
 	font-family: 'Verdana';
 }
-
-@media screen and ( max-device-width: 400px ){
-	div.header .title{
+[class*="table"] {
+  width: 100%;
+}
+@media screen and ( max-width: 600px ){
+	table{
   font-size: 30px;
 }
 
