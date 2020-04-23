@@ -26,7 +26,7 @@ table, tbody, tr, td{
 
 div.page-content{
 	height: auto;
-  padding-bottom: 50px;
+  padding-bottom: 200px;
   background-size: cover;
 }
 
@@ -263,12 +263,26 @@ img.icon{
 	font-family: 'Verdana';
 }
 
-@media screen and ( max-device-width: 500px ){
+@media screen and ( max-device-width: 500px ) and (min-device-width: 320px){
 	div.header .title{
   font-size: 30px;
+
 }
 
 	div.search-bar{
-		width: 300px;
+		width: 335px;
+		
 	}
+div.footer{
+	text-align: center;
+	position: absolute;
+	margin:auto;
+	width: 156%;
+	top: 1100px;
+}
+div .profile-pic{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+}
 }
