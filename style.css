@@ -1,4 +1,3 @@
-/* General */
 html, body{
 	margin: 0;
 	padding: 0;
@@ -9,12 +8,9 @@ html, body{
 
 }
 
-/* Styling */
 body{
 	background: url(images/sky_Sun.jpg);
 	background-repeat: no-repeat;
-	-moz-background-size: cover;
-  -webkit-background-size: cover;
   background-size: cover;
 }
 
@@ -26,14 +22,11 @@ table, tbody, tr, td{
 	margin: 0;
 	padding: 0;
 	border: 0;
-
 }
 
 div.page-content{
 	height: auto;
   padding-bottom: 50px;
-	-moz-background-size: cover;
-  -webkit-background-size: cover;
   background-size: cover;
 }
 
@@ -55,7 +48,6 @@ div .profile-pic{
 div.header .title{
 	color: #FFF;
 	font-family: 'Verdana';
-
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-size: 50px;
@@ -65,7 +57,6 @@ div.header .sub-title{
 	color: #FFF;
 	font-family: 'Verdana';
 	font-style: italic;
-
 	margin: 5px;
 	font-size: 25px;
 }
@@ -77,7 +68,6 @@ div.search-bar{
 	padding: 0;
 	width: 335px;
 	background-color: #FFF;
-
 	cursor: pointer;
 	transition: box-shadow 0.5s;
 	box-shadow: none;
@@ -91,7 +81,6 @@ div.search-bar:hover{
 div.search-bar input.search-box{
 	font-size: 20px;
 	padding: 3px;
-
 	border: none;
 	border-radius: 10px;
 	font-family: 'Verdana';
@@ -118,14 +107,12 @@ button:hover, .button:hover{
 	opacity: 0.8;
 }
 
-/* Contenuto Principale */
 div.main-result{
 	width: 500px;
 	margin: auto;
 	position:relative;
 	top: auto;
 	right: 350px;
-
 }
 
 
@@ -133,8 +120,7 @@ div.main-result .title{
 	font-family: 'Verdana';
 	text-transform: uppercase;
 	color: #2271b3;
-
-	font-size: 70px;
+  font-size: 70px;
 }
 
 div.main-result .sub-title{
@@ -147,7 +133,6 @@ div.main-result #temp{
 	font-family: 'Verdana';
 	text-transform: uppercase;
 	color: #fff;
-
 	font-size: 70px;
 	margin-left: auto;
 }
@@ -179,7 +164,6 @@ div#additional-measures{
 
 div#main-measures table{
 	width: 100%;
-
 }
 
 div#main-measures tbody tr:nth-child(odd){
@@ -194,7 +178,6 @@ div#main-measures table tr td{
 	width: 50%;
   margin: 0;
 	padding: 10px;
-
 }
 
 div#main-measures table tr td:nth-child(even){
@@ -207,7 +190,6 @@ div#main-measures table tr td:nth-child(odd){
 }
 div#main-measures2 table{
 	width: 500px;
-
 }
 
 div#main-measures2 tbody tr:nth-child(odd){
@@ -222,7 +204,6 @@ div#main-measures2 table tr td{
 	width: 50%;
   margin: 0;
 	padding: 10px;
-
 }
 
 div#main-measures2 table tr td:nth-child(even){
@@ -230,8 +211,6 @@ div#main-measures2 table tr td:nth-child(even){
 	position:relative;
 	top: auto;
 	left: 800px;
-
-
 }
 
 div#main-measures2 table tr td:nth-child(odd){
@@ -239,14 +218,12 @@ div#main-measures2 table tr td:nth-child(odd){
 	position:relative;
 	top: auto;
 	left: 800px;
-
 }
 
 
 .info{
 	color: #FFF;
   font-family: 'Verdana';
-
 }
 .dati{
 	color: #FFF;
@@ -266,8 +243,6 @@ div.instant-info{
 div.footer{
 	background-color:#FF8E17;
 	text-align: center;
-
-
 }
 
 img.icon{
@@ -275,7 +250,6 @@ img.icon{
 	width: auto;
 }
 
-/* SweetAlert */
 .swal-modal, .swal-button{
 	border-radius: 20px;
 	font-family: 'Verdana';
