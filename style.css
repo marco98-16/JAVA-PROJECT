@@ -42,8 +42,11 @@ div.header{
 	text-align: center;
 }
 div .profile-pic{
+	position: absolute;
 	width: 100px;
 	height: auto;
+	left:850px;
+	top: 10px;
 }
 div.header .title{
 	color: #FFF;
@@ -269,9 +272,8 @@ img.icon{
 
 }
 
-	div.search-bar{
+div.search-bar{
 		width: 335px;
-		
 	}
 div.footer{
 	text-align: center;
@@ -282,7 +284,10 @@ div.footer{
 }
 div .profile-pic{
 	position: absolute;
-	width: 500px;
-	height: 500px;
+	width: 100px;
+	height: auto;
+	left:300px;
+	top: 0px;
 }
+
 }
