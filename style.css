@@ -36,7 +36,7 @@ div.page-content{
 div.header{
 	padding: 5px;
 	text-align: center;
-	  background-color: rgba(34, 113, 179, 0.7 );
+	background-color: rgba(34, 113, 179, 0.7 );
 }
 div .profile-pic{
 
@@ -53,7 +53,7 @@ div.header .title{
 }
 
 
-div.search-bar{
+div .search-bar{
 	border-radius: 10px;
 	text-align: center;
 	margin: 20px auto;
@@ -204,6 +204,7 @@ div.footer{
 	position: absolute;
 	margin:auto;
 	width: 100%;
+	padding: 5px;
 }
 
 img.icon{
@@ -221,17 +222,25 @@ img.icon{
 }
 
 @media screen and ( max-device-width: 500px ) and (min-device-width: 320px){
-	div.header .title{
+	div.header .title .profile-pic{
   font-size: 30px;
-
+	text-align: center;
+	position: absolute;
+	margin:auto;
 }
 
-div.search-bar{
-		width: 335px;
+div .search-bar{
+	align: center;
+	width: 335px;
 	}
 div.footer{
 	text-align: center;
 	position: absolute;
+	margin:auto;
+	width: 156%;
+}
+div.header{
+	text-align: center;
 	margin:auto;
 	width: 156%;
 }
