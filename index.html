@@ -44,12 +44,11 @@
 		</div>
 
 		<main>
-			<div class="main-result">
+			<div class="main-result" align="center">
 				<a class="title" id="city-name">Palermo</a>
 
 				<a class="sub-title" id="country">IT</a>
 
-				<a id="city-id">2007649</a>
 
 				<div class="instant-info">
 					<br>
@@ -64,7 +63,7 @@
 						<tbody>
               <tr>
 							<td>
-								<a class="dati"><font color='#FF8E17'><b>Temperatura Max</b></a>
+								<a class="dati"><font color='#FF8E17'><b>Massima:</b></a>
 							</td>
 
 							<td>
@@ -74,7 +73,7 @@
 
 						<tr>
 							<td>
-								<a class="dati"><font color='#2271b3'><b>Temperatura Min</b></a>
+								<a class="dati"><font color='#2271b3'><b>Minima:</b></a>
 							</td>
 
 							<td>
@@ -84,7 +83,7 @@
 
 						<tr>
 							<td>
-								<a class="dati"><font color='#FF8E17'><b>Umidità</b></a>
+								<a class="dati"><font color='#FF8E17'><b>Umidità:</b></a>
 							</td>
 
 							<td>
@@ -94,7 +93,7 @@
 
 						<tr>
 							<td>
-								<a class="dati"><font color='#2271b3'><b>Pressione Atmosferica</b></a>
+								<a class="dati"><font color='#2271b3'><b>Pressione:</b></a>
 							</td>
 
 							<td>
@@ -104,7 +103,7 @@
 
 						<tr>
 							<td>
-								<a class="dati"><font color='#FF8E17'><b>Visibilità</b></a>
+								<a class="dati"><font color='#FF8E17'><b>Visibilità:</b></a>
 							</td>
 
 							<td>
@@ -118,76 +117,35 @@
 <br>
 <br>
 <br>
-<br>
-				<div id="wind">
-					<a class="sub-title"><font color='#2271b3'> Vento </a>
-				</div>
-				<div id="main-measures2">
-					<table>
-						<tbody>
-              <tr>
-							<td>
+<div id="wind">
+	<a class="sub-title">Vento</a>
+	<br>
+	<a class="info">Direzione: </a>
+	<a class="info" id="deg"></a>
+	<br>
+	<a class="info">Velocità: </a>
+	<a class="info" id="speed"></a>
+</div>
 
-					<a class="info"><font color='#FF8E17'><b>Direzione:</b></a>
-					</td>
-				<td>
-					<a class="info" id="deg">159°</a>
-				</td>
-
-					<tr>
-						<td>
-					<a class="info"><font color='#2271b3'><b>Velocità:</b></a>
-					</td>
-					<td>
-					<a class="info" id="speed">0.45 m/s</a>
-				</td>
-			</tr>
-		</tbody>
-	 </table>
-	 </div>
-
-				<div id="additional-measures">
-					<a class="sub-title"><font color='#2271b3'>Dati Aggiuntivi</a>
-				</div>
-				<div id="main-measures2">
-					<table style="position:absolute, top:500px">
-						<tbody>
-							<tr>
-							<td>
-
-					<a class="info"><font color='#FF8E17'><b>Latitudine:</b></a>
-					</td>
-					<td>
-					<a class="info" id="lat">37.82</a>
-				</td>
-					<tr>
-						<td>
-					<a class="info"><font color='#2271b3'><b>Longitudine:</b></a>
-					</td>
-					<td>
-					<a class="info" id="lon">13.58</a>
-				</td>
-			</tr>
-				<tr>
-					<td>
-					<a class="info"><font color='#FF8E17'><b>Alba:</b></a>
-					</td>
-					<td>
-					<a class="info" id="sunrise">6:25:46</a>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<a class="info"><font color='#2271b3'><b>Tramonto:</b></a>
-					</td>
-					<td>
-					<a class="info" id="sunset">19:43:46</a>
-				</td>
-			</tr>
-		</tbody>
-	 </table>
-				</div>
+<div id="additional-measures">
+	<a class="sub-title">Misure Aggiuntive</a>
+	<br>
+	<a class="info">Latitudine: </a>
+	<a class="info" id="lat"></a>
+	<br>
+	<a class="info">Longitudine: </a>
+	<a class="info" id="lon"></a>
+	<br>
+	<br>
+	<a class="info">Alba: </a>
+	<a class="info" id="sunrise"></a>
+	<br>
+	<a class="info">Tramonto: </a>
+	<a class="info" id="sunset"></a>
+</div>
+</div>
 </main>
+</div>
 
 <div class="footer">
 		<div id="credits">

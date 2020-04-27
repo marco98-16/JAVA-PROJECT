@@ -9,9 +9,11 @@ html, body{
 }
 
 body{
-	background: url(images/sky_Sun.jpg);
+	background-image: url(images/meteo.jpg);
 	background-repeat: no-repeat;
+	background-position: center center;
   background-size: cover;
+	 background-attachment: fixed;
 }
 
 a{
@@ -30,12 +32,6 @@ div.page-content{
   background-size: cover;
 }
 
-hr{
-	height: 0;
-	width: 70%;
-	margin: 4px auto;
-	border-top: 0.3px solid white;
-}
 
 div.header{
 	padding: 5px;
@@ -56,13 +52,6 @@ div.header .title{
 	font-size: 50px;
 }
 
-div.header .sub-title{
-	color: #FFF;
-	font-family: 'Verdana';
-	font-style: italic;
-	margin: 5px;
-	font-size: 25px;
-}
 
 div.search-bar{
 	border-radius: 10px;
@@ -136,32 +125,30 @@ div.main-result #temp{
 	font-family: 'Verdana';
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 70px;
+	font-size: 60px;
 	margin-left: auto;
 }
 div#wind{
-  background-color: rgba( 255, 142, 23, 0.7);
-  text-align: center;
+  text-align: left;
 	text-transform: capitalize;
 	padding: 0;
 	width: 500px;
 	margin: 0;
 	border-radius: 10px;
-	position:relative;
-	top: auto;
-
+}
+div#wind .sub-title{
+	font-size: 40px;
 }
 div#additional-measures{
-  background-color: rgba( 255, 142, 23, 0.7);
-  text-align:center;
+  text-align:left;
 	text-transform: capitalize;
 	padding: 0;
 	width: 500px;
 	margin: 0;
 	border-radius: 10px;
-	position:relative;
-	top: auto;
-
+}
+div#additional-measures .sub-title{
+	font-size: 40px;
 }
 
 
@@ -191,41 +178,9 @@ div#main-measures table tr td:nth-child(even){
 div#main-measures table tr td:nth-child(odd){
 	border-radius: 10px;
 }
-div#main-measures2 table{
-	width: 500px;
-}
-
-div#main-measures2 tbody tr:nth-child(odd){
-  background-color: rgba( 34, 113, 179, 0.7);
-}
-
-div#main-measures2 tbody tr:nth-child(even){
-  background-color: rgba( 255, 142, 23, 0.7);
-}
-
-div#main-measures2 table tr td{
-	width: 50%;
-  margin: 0;
-	padding: 10px;
-}
-
-div#main-measures2 table tr td:nth-child(even){
-	border-radius: 10px;
-	position:relative;
-	top: auto;
-
-}
-
-div#main-measures2 table tr td:nth-child(odd){
-	border-radius: 10px;
-	position:relative;
-	top: auto;
-
-}
-
 
 .info{
-	color: #FFF;
+	color:#FF8E17 ;
   font-family: 'Verdana';
 }
 .dati{
@@ -233,12 +188,12 @@ div#main-measures2 table tr td:nth-child(odd){
   font-family: 'Verdana';
 }
 
-div.instant-info{
+div .instant-info{
 	background-color: rgba( 255, 142, 23, 0.7);
-	width: auto;
+	width: 100%;
 	text-align: center;
 	text-transform: capitalize;
-	padding: 5px;
+	padding: 0;
 	margin: 0;
 	border-radius: 20px;
 }
@@ -249,7 +204,6 @@ div.footer{
 	position: absolute;
 	margin:auto;
 	width: 100%;
-	top: 1100px;
 }
 
 img.icon{
@@ -266,7 +220,7 @@ img.icon{
 	font-family: 'Verdana';
 }
 
-@media screen and ( max-device-width: 500px ) and (min-device-width: 320px){
+@media screen and ( max-device-width: 500px ){
 	div.header .title{
   font-size: 30px;
 
@@ -280,7 +234,6 @@ div.footer{
 	position: absolute;
 	margin:auto;
 	width: 156%;
-	top: 1100px;
 }
 div .profile-pic{
 	position: absolute;

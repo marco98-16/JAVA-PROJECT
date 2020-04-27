@@ -47,7 +47,7 @@ function getWeatherByCity( request ){
 function assign( data ){
 	$("#city-name").html( data.name );
 	$("#country").html( data.sys.country );
-	$("#city-id").html( data.sys.id );
+
 
 	$("#state-icon").attr( "src", "icons/" + data.weather[0].icon + ".png" );
 	$("#state-icon").attr( "title", data.weather[0].main );
@@ -58,7 +58,7 @@ function assign( data ){
 	$("#temp-max").html( data.main.temp_max + "°C" );
 	$("#temp-min").html( data.main.temp_min + "°C" );
 	$("#humidity").html( data.main.humidity + "%" );
-	$("#pressure").html( data.main.pressure + " hpa" );
+	$("#pressure").html( data.main.pressure + "mbar" );
 	$("#visibility").html( data.visibility );
 
 	$("#lat").html( data.coord.lat );
