@@ -237,9 +237,12 @@ img.icon{
 	position: absolute;
 	margin:auto;
 }
-
-div .search-bar{
-	width: 340px;
+div .search-bar .page-content{
+	width: 100%;
+	height: auto;
+  background-size: cover;
+	text-align: center;
+	position: absolute;
 	}
 div.footer{
 	text-align: center;
