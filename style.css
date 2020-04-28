@@ -13,7 +13,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: center center;
   background-size: cover;
-	 background-attachment: fixed;
+	background-attachment: fixed;
 }
 
 a{
@@ -112,43 +112,51 @@ div.main-result .title{
 	font-family: 'Verdana';
 	text-transform: uppercase;
 	color: #2271b3;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 div.main-result .sub-title{
 	font-family: 'Verdana';
 	color: #2271b3;
-	font-size: 50px;
+	font-size: 30px;
 }
 
 div.main-result #temp{
 	font-family: 'Verdana';
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 60px;
+	font-size: 40px;
 	margin-left: auto;
 }
-div#wind{
-  text-align: left;
+div#wind {
+  text-align: center;
 	text-transform: capitalize;
 	padding: 0;
 	width: 500px;
 	margin: 0;
-	border-radius: 10px;
+	border-top-left-radius:10px;
+	border-top-right-radius: 10px;
+	background-color: rgba(34, 113, 179, 0.7 );
+
 }
 div#wind .sub-title{
 	font-size: 40px;
+	color: #FF8E17;
 }
 div#additional-measures{
-  text-align:left;
+  text-align:center;
 	text-transform: capitalize;
 	padding: 0;
 	width: 500px;
 	margin: 0;
-	border-radius: 10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius: 10px;
+	background-color: rgba(34, 113, 179, 0.7 );
+
 }
 div#additional-measures .sub-title{
 	font-size: 40px;
+  color:  #FF8E17;
 }
 
 
@@ -180,9 +188,10 @@ div#main-measures table tr td:nth-child(odd){
 }
 
 .info{
-	color:#FF8E17 ;
+	color:#FFF;
   font-family: 'Verdana';
 }
+
 .dati{
 	color: #FFF;
   font-family: 'Verdana';
@@ -231,6 +240,7 @@ img.icon{
 
 div .search-bar{
 	width: 340px;
+
 	}
 div.footer{
 	text-align: center;

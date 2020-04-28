@@ -3,8 +3,9 @@
 <head>
 
 	<title>Meteoline</title>
+	<link href="images/cloud.png" rel="icon">
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 	<link href="style.css" rel="stylesheet">
@@ -27,8 +28,7 @@
 
 		<div class="search-bar" align="center">
 			<form id="request" method="POST">
-				<table >
-					<tbody>
+				<table style="width: 100%">
 						<tr>
 						<td align="left">
 							<input type="text" id="city" name="city" autocomplete="city" class="search-box" placeholder="Inserisci una città" title="Compila questo campo.">
@@ -38,7 +38,6 @@
 							<button type="submit" class="button">Vai</button>
 						</td>
 					</tr>
-				</tbody>
 			</table>
 			</form>
 		</div>
@@ -60,7 +59,6 @@
 
 				<div id="main-measures">
 					<table>
-						<tbody>
               <tr>
 							<td>
 								<a class="dati"><font color='#FF8E17'><b>Massima:</b></a>
@@ -110,7 +108,6 @@
 								<a class="dati" id="visibility">16093</a>
 							</td>
 						</tr>
-					</tbody>
         </table>
 				</div>
 <br>
@@ -123,19 +120,18 @@
 	<a class="info">Direzione: </a>
 	<a class="info" id="deg"></a>
 	<br>
-	<a class="info">Velocità: </a>
+	<a class="info">Velocità:</a>
 	<a class="info" id="speed"></a>
 </div>
 
 <div id="additional-measures">
-	<a class="sub-title">Misure Aggiuntive</a>
+	<a class="sub-title">Altre Info</a>
 	<br>
 	<a class="info">Latitudine: </a>
 	<a class="info" id="lat"></a>
 	<br>
 	<a class="info">Longitudine: </a>
 	<a class="info" id="lon"></a>
-	<br>
 	<br>
 	<a class="info">Alba: </a>
 	<a class="info" id="sunrise"></a>
