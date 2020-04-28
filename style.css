@@ -230,7 +230,7 @@ img.icon{
 	font-family: 'Verdana';
 }
 
-@media screen and ( max-device-width: 500px ){
+@media screen and ( max-device-width: 500px ) and (min-device-width: 320px){
 	div.header .title .profile-pic{
   font-size: 30px;
 	text-align: center;
@@ -240,6 +240,8 @@ img.icon{
 
 div .search-bar{
 	width: 340px;
+	position: absolute;
+  text-align: center;
 
 	}
 div.footer{
