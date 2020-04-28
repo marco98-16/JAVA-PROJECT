@@ -67,8 +67,8 @@ function assign( data ){
 	var sunrise = new Date( data.sys.sunrise * 1000 ) ;
 	var sunset = new Date( data.sys.sunset * 1000 );
 
-	$("#sunrise").html( sunrise.getHours() + ":" + sunrise.getMinutes() + ":" + sunrise.getSeconds() );
-	$("#sunset").html( sunset.getHours() + ":" + sunset.getMinutes() + ":" + sunrise.getSeconds() );
+	$("#sunrise").html( sunrise.getHours() + ";" + sunrise.getMinutes() + ";" + sunrise.getSeconds() );
+	$("#sunset").html( sunset.getHours() + ";" + sunset.getMinutes() + ";" + sunrise.getSeconds() );
 
 	$("#speed").html( data.wind.speed + " m/s" );
 	$("#deg").html( data.wind.deg + "°" );

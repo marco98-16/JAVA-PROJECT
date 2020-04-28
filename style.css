@@ -39,10 +39,8 @@ div.header{
 	background-color: rgba(34, 113, 179, 0.7 );
 }
 div .profile-pic{
-
 	width: 100px;
 	height: auto;
-
 }
 div.header .title{
 	color: #FFF;
@@ -239,7 +237,7 @@ img.icon{
 }
 div .search-bar{
 	width: 340px;
-	}
+}
 div.footer{
 	text-align: center;
 	position: absolute;
