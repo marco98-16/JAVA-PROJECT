@@ -230,7 +230,7 @@ img.icon{
 	font-family: 'Verdana';
 }
 
-@media screen and ( max-device-width: 500px ) and (min-device-width: 320px){
+@media screen and ( max-device-width: 500px ){
 	div.header .title .profile-pic{
   font-size: 30px;
 	text-align: center;
